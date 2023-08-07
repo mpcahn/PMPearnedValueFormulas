@@ -24,6 +24,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Earned Value Memorization Practice</h1>
       <label>Enter Budget At Completion (BAC): </label>
       <input value={BAC} onChange={(e) => setBAC(e.target.value)} />
       <br />
